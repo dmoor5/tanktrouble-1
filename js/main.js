@@ -9,10 +9,10 @@ var control1 = {
 	fire: Phaser.Keyboard.M,
 };
 var control2 = {
-	up: Phaser.Keyboard.E,
-	down: Phaser.Keyboard.D,
-	left: Phaser.Keyboard.S,
-	right: Phaser.Keyboard.F,
+	up: Phaser.Keyboard.W,
+	down: Phaser.Keyboard.S,
+	left: Phaser.Keyboard.A,
+	right: Phaser.Keyboard.D,
 	fire: Phaser.Keyboard.Q,
 };
 var maxHlines = 5;
@@ -26,7 +26,7 @@ var rotationSpeed = 4;
 var bulletDelay = 10;
 var bulletSpeed = 200;
 var bulletTTL = 20000;
-var maxBullets = 500;
+var maxBullets = 10;
 var bullets;
 var isGameOver;
 var isStartScreen = true;
